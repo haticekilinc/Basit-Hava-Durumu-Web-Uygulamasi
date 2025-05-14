@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hava Durumu</h1>
+            <div class="search-bar">
+                <input type="text" id="city-input" placeholder="Şehir girin...">
+                <button id="search-button">Ara</button>
+            </div>
+        </header>
+        <main id="weather-info">
+            <div id="location"></div>
+            <div id="current-weather">
+                <div id="temperature"></div>
+                <div id="description"></div>
+                <div id="icon"></div>
+            </div>
+            <div id="details">
+                <p>Hissedilen: <span id="feels-like"></span></p>
+                <p>Rüzgar: <span id="wind"></span></p>
+                <p>Nem: <span id="humidity"></span></p>
+            </div>
+            <div id="forecast">
+                </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 Hava Durumu Uygulaması</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
